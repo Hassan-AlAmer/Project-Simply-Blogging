@@ -18,3 +18,31 @@ section.container-fluid{
 .navbar-brand i{
     color: #f44336;
 }
+.copyri{
+    position: relative;
+}
+.copyri::before, .copyri::after {
+    width: 33%;
+    position: absolute;
+    content: '';
+    border-top: 1px solid #7c98b6;
+    top: 50%;
+}
+.copyri::before {
+    right: 0;
+}.copyri::after {
+    left: 0;
+}
+footer{
+    background: rgb(0,40,93);
+    background: radial-gradient(circle, rgba(0,40,93,1) 0%, rgba(0,113,151,1) 100%);
+}
+.follow a {
+    color: white;
+    opacity: 0.8;
+    font-size: 24px;
+    margin-right: 18px;
+}
+.follow a:hover {
+    color: #ffd17c;
+}
