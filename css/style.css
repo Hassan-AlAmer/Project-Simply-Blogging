@@ -1,0 +1,17 @@
+section.container-fluid{
+    padding: 0;
+}
+.nav-item {
+    font-size: 20px;
+}
+.nav-link{
+    border-radius: 6px  !important ;
+    padding: 10px 40px  !important;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.nav-link:hover, .nav-link.active {
+    color: white !important;
+    background-color: #00a2c0;
+    
+}
