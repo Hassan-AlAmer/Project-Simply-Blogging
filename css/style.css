@@ -15,3 +15,6 @@ section.container-fluid{
     background-color: #00a2c0;
     
 }
+.navbar-brand i{
+    color: #f44336;
+}
