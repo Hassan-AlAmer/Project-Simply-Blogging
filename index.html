@@ -38,7 +38,7 @@
                 </ul>
               </div>
               <div class="">
-                <button class="btn btn-outline-success me-2" type="button">Login</button>
+                <button class="btn btn-outline-success me-2" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
               </div>
             </div>
         </nav>
@@ -242,6 +242,35 @@
             </div>
         </div>
     </footer>
+    <!-- Start Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" data-bs-backdrop="static" aria-modal="true" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Admin Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form class="login-validation" novalidate>
+                    <div class="modal-body">                   
+                            <div class="mb-3">
+                                <label class="col-form-label">Email:</label>
+                                <input id="email" type="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="col-form-label">Password:</label>
+                                <input id="password" type="password" class="form-control" required>
+                            </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger ripple-surface" data-bs-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                </form>
+                <div class="alert alert-success d-none fw-bold" id="alertsuccess"  role="alert">Login Success</div>
+            </div>
+        </div>
+    </div>
+    <!-- End Modal -->
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html> 
