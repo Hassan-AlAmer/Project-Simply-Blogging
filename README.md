@@ -27,3 +27,12 @@ You must use the following:
 - The submission of your GitHub repository link is mandatory. In order to track your task, you need to share the link of the repository in the document.
 
 - The step-by-step process involved in completing this task should be documented.
+
+## Project Screenshot:
+![Home](https://user-images.githubusercontent.com/92730894/138097063-804800f2-5574-4d08-8913-73519de58cea.png)
+![Blog](https://user-images.githubusercontent.com/92730894/138097142-50eb3609-171a-4fe2-9e36-2ce7f335e91c.png)
+![About](https://user-images.githubusercontent.com/92730894/138097218-9e7e7a7f-39f0-49ce-a8c9-d77864a10c79.png)
+![Contact Us](https://user-images.githubusercontent.com/92730894/138097274-6ed24e80-97be-457f-bf09-6be4bef1d5cc.png)
+
+
+
