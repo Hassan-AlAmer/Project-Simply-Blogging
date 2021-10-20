@@ -28,6 +28,9 @@ You must use the following:
 
 - The step-by-step process involved in completing this task should be documented.
 
+## 🔗 Links
+** [**Demo**](https://hassan-alamer.github.io/Project-Simply-Blogging/)
+
 ## Project Screenshot:
 ![Home](https://user-images.githubusercontent.com/92730894/138097063-804800f2-5574-4d08-8913-73519de58cea.png)
 ![Blog](https://user-images.githubusercontent.com/92730894/138097142-50eb3609-171a-4fe2-9e36-2ce7f335e91c.png)
